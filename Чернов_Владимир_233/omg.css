@@ -1,0 +1,49 @@
+nav {
+  width: 100%;
+  background: #273eeb5f;         
+  font-size: large;
+  text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button:hover {
+    background-color: orange;
+    border-color: black;
+}
+
+button {
+    border-style: dashed;
+    border-color: orange;
+    image-rendering: pixelated;
+    background-color: black;
+    font-family: fantasy;
+    margin-top: 1000px;
+}
+
+main {
+    max-width: 400;
+    
+}
+
+img {
+    border-radius: 7%;
+    flex-shrink: 0;
+}
+
+.map {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
